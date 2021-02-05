@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta content="width=device-width, initial-scale=1" name="viewport" />
+
+	<!-- Animate css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" /> -->
+	<link rel="stylesheet" href="css/style.css">
+	<!-- jQuery library -->
+	<script src="js/jquery-3.5.1.min.js"></script>
+	<!-- jQuery-Mask -->
+	<script src="js/jQueryMask/jquery.mask.min.js"></script>
+
+	<script src="js/wow.min.js"></script>
+	<script> new WOW().init(); </script>
+	<script src="js/script.js" ></script>
+	<title>Document</title>
+</head>
+	<body>
+
+		<div id="main-wrapper" >
+
+				<header>
+					<div class="header-block-1">
+						<svg  xmlns="http://www.w3.org/2000/svg" width="100" height="51" viewBox="0 0 100 51" class="logo-block">
+							<defs>
+							<style>
+							.cls-1 {
+							fill: #565079;
+							fill-rule: evenodd;
+							transition: all ease 0.3s;
+							}
+							
+							</style>
+							</defs>
+							<path id="Logo" class="cls-1" d="M136.06,86.285c0-3.323-1.037-6.391-6.246-6.391s-7.029,2.283-7.029,7.89a12.823,12.823,0,0,0,.853,4.845c1.221,2.353,3.872,2.838,6.706,2.838a16.067,16.067,0,0,0,4.54-.555V92.145c-1.912.393-5.738,0.646-6.96,0s-1.544-1.776-1.544-3.553h9.426A17.353,17.353,0,0,0,136.06,86.285Zm-3.48-.117h-6.154a3.159,3.159,0,0,1,3.342-3.437C133.34,82.731,132.58,86.168,132.58,86.168Zm-11.639,6.2V95.2h-4.736l-4.978-7.821V84.508h2.593c2.4,0,2.789-1.546,2.789-3.621s-0.692-3.484-2.766-3.484h-4.886v9.978h-0.011V92.4h2.281v2.8H103V92.4h2.282V77.171H103v-2.8h11.546c2.385,0,5.739.623,5.739,6.505s-3.146,6.16-5.29,6.472c0.45,0.727,3.492,5.018,3.492,5.018h2.454Zm44.912-.745c0,0.516.074,1.216,0.736,1.216,2.1,0,3.385-7.146,3.385-7.146a0.955,0.955,0,0,0-.515-0.22C166.589,85.469,165.853,91.1,165.853,91.619Zm1.876-22.284c0-.846.037-2.026-0.883-2.026-3.127,0-8.021,17.717-8.021,17.717C168.06,76,167.729,70.183,167.729,69.334Zm23.4-.037c0-.957-0.184-1.989-0.81-1.989-2.906,0-7.469,15.544-7.469,15.544C191.461,74.64,191.13,70.256,191.13,69.3Zm-6.77,17.128c-0.405.11-.883,0.883-0.883,2.173,0,1.841.7,2.394,0.7,2.394a8.363,8.363,0,0,0,.809-3.352A1.046,1.046,0,0,0,184.36,86.426ZM172.408,58c-16.895,0-30.592,10.618-30.592,23.716,0,7.718,4.759,14.573,12.122,18.9a15.059,15.059,0,0,1-1.755,7.107c-0.445.941-.048,1.646,1.757,1.058a33.5,33.5,0,0,0,9.322-4.431,38.8,38.8,0,0,0,9.146,1.079c16.9,0,30.592-10.618,30.592-23.717S189.3,58,172.408,58Zm14.38,34.687a8.31,8.31,0,0,1-6.586,3.058c-4.231,0-3.579-4.305-3.421-5.562-0.626.663-5.409,5.562-7.4,5.562-1.472,0-1.251-2.58-1.178-2.948-0.367.626-1.618,2.948-4.084,2.948s-2.843-3.993-2.612-5.342c-0.662.663-4.93,5.194-7.653,5.194-1.472,0-1.582-1.547-1.582-2.174s4.746-27.625,14.2-27.625c1.582,0,2.134,1.732,2.134,3.242s0.221,6.74-10.155,17.2c0,0-1.214,4.788-1.214,5.3a0.778,0.778,0,0,0,.7.883c0.957-.074,3.68-2.763,3.68-2.763s0.883-6.3,5.7-6.3a5.661,5.661,0,0,1,3.017,1.178s0.257-.957.4-1.289c0.405,0.111,4.195,1.252,4.195,1.252S172.7,91.067,172.7,91.8c0,0.589.221,0.553,0.368,0.553s1.251-.442,3.79-2.91c0.037-.589,4.231-23.647,12.841-23.647,1.808,0,2.355,1.732,2.355,3.426s0.11,5.71-9.567,14.845a56.363,56.363,0,0,0-1.949,8.987c0,1.032.367,1.363,0.7,1.363a5.253,5.253,0,0,0,2.723-2.91,4.127,4.127,0,0,1-1.214-3.241c0-1.732.773-4.973,3.79-4.973,2.575,0,2.722,3.02,2.722,3.5a8.012,8.012,0,0,1-2.023,5.267c0.4,0.037,1.361.331,4.82-3.021a0.776,0.776,0,0,1,.22.3S189.916,92.5,186.788,92.688Z" transform="translate(-103 -58)"/>
+						</svg>
+					</div>
+
+					<div class="header-block-2">
+						<div class="sections-block">
+							<a href="#" class="sections">О КОМПАНИИ <span class="eye"><img src="img/eye.svg" alt="eye" ></span></a>
+							<a href="#" class="sections">УСЛУГИ <span class="eye"><img src="img/eye.svg" alt="eye" ></span></a>
+							<a href="#" class="sections">СТАТЬИ <span class="eye"><img src="img/eye.svg" alt="eye" ></span></a>
+							<a href="#" class="sections">КОНТАКТЫ <span class="eye"><img src="img/eye.svg" alt="eye" ></span></a>
+						</div>
+					</div>
+					
+					<div class="header-block-3">
+						<div class="contacts-wrapper">
+
+							<div class="feedback-btn" >
+								<a href="javascript:void(0)" class="feedback" onclick="document.getElementById('id01').style.display='block'" >ОБРАТНЫЙ ЗВОНОК</a>
+								<span class="animate-border"></span>
+							</div>
+
+							<div class="our-number-block">
+								<a href="tel: + 7 (495) 665-07-76" class="our-number" >+ 7 (495) 665-07-76</a>
+								<a href="tel: + 7 (495) 665-07-76" class="our-number" >+ 7 (495) 665-07-76</a>
+							</div>
+						</div>
+					</div>
+
+					<!-- Burger Menu -->
+						<div class="header-block-4">
+							<div class="bar-container" >
+							  <div class="bar1"></div>
+							  <div class="bar2"></div>
+							  <div class="bar3"></div>
+							</div>
+						</div>
+
+						<div id="myNav" class="overlay">
+						  <div class="overlay-content">
+						    <a href="#">О КОМПАНИИ</a>
+						    <a href="#">УСЛУГИ</a>
+						    <a href="#">СТАТЬИ</a>
+						    <a href="#">КОНТАКТЫ</a>
+
+						  	<a href="javascript:void(0)" class="callback" onclick="document.getElementById('id01').style.display='block'">ОБРАТНЫЙ ЗВОНОК</a>
+						  </div>
+						
+						</div>
+					<!-- End Burger Menu -->
+				</header>
+
+				<section class="sc-1">
+					<div class="multi-seo-block" >
+						<h1 class="multi-seo">МУЛЬТИКАНАЛЬНОЕ SEO</h1>
+					</div>
+					<div class="discount-countdown-wrapper">
+						<div class="discount-wrapper">
+							<div class="discount-block">
+								<div class="discount   wow animate__animated animate__flash  "><h3 class="discount-text">Со скидкой 20% !</h3></div>
+								<div class="consulting-btns">
+									<div class="consulting-btn">
+										<a href="javascript:void(0)" class="consulting" >ПОЛУЧИТЬ КОНСУЛЬТАЦИЮ ПО АКЦИИ</a>
+										<span class="animate-border"></span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="countdown-wrapper">
+							<div class="countdown-info-block"><p class="countdown" id="countdown">До конца акции осталось:</p></div>
+							<div class="countdown-block">
+								<div class="date-block">
+									<p id="days" class="box"></p><p class="date-text">Дней</p>
+								</div>
+								<span class="dots">:</span>
+								<div class="date-block">
+									<p id="hours" class="box"></p>
+									<p class="date-text">Часов</p>
+								</div>
+								<span class="dots">:</span>
+								<div class="date-block">
+									<p id="minutes" class="box"></p>
+									<p class="date-text">Минут</p>
+								</div>
+								<span class="dots">:</span>
+								<div class="date-block">
+									<p id="seconds" class="box"></p>
+									<p class="date-text">Секунд</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<section class="sc-2">
+					<div class="scroll-wrap">
+						<div class="overhide">
+							<div class="line"></div>
+						</div>
+						<p class="scroll-text">SCROLL</p>
+					</div>
+					<div style="clear: both;"></div>
+				</section>
+
+				<section class="sc-3">
+					<div class="info-wrapper"><h3 class="info"><span class="info-line"></span>ЧТО ВЫ ПОЛУЧИТЕ</h3></div>
+					<div class="our-services">
+						<div class="service-1">
+							<img src="img/sc3-pic1.svg" alt="star" >
+							<p class="service-1-text">Увеличим узнаваемость бренда</p>
+						</div>
+						<div class="service-1">
+							<img src="img/sc3-pic2.svg" alt="thumb-up" >
+							<p class="service-1-text">Создадим положительный имидж в сети</p>
+						</div>
+						<div class="service-1">
+							<img src="img/sc3-pic3.svg" alt="magnifying glass" >
+							<p class="service-1-text">Вытесним негативную информацию</p>
+						</div>
+						<div class="service-1">
+							<img src="img/sc3-pic4.svg" alt="multiply" >
+							<p class="service-1-text">Приумножим количество <br> лидов</p>
+						</div>
+					</div>
+				</section>
+
+				<section class="sc-4" >
+					<div class="info-wrapper"><h3 class="info"><span class="info-line"></span>ЧТО ВХОДИТ В ПАКЕТЫ</h3></div>
+					<div class="package-block">
+						<input type="checkbox" class="checkSlideToggle">
+						<div class="package-wrapper">
+							<h3 class="package-title">Крауд–маркетинг</h3>
+							<p class="package-dots-wrapper">
+								<span class="package-dots"></span>
+								<span class="package-dots"></span>
+								<span class="package-dots"></span>
+							</p>
+						</div>
+						<div class="package-body">
+							<div class="point-wrapper">
+								<p class="point"><span class="point-dots"></span>Анализ и создание необходимых площадок</p>
+							</div>
+							<div class="point-wrapper">
+								<p class="point"><span class="point-dots"></span>Анализ и создание необходимых площадок</p>
+							</div>
+							<div class="point-wrapper">
+								<p class="point"><span class="point-dots"></span>Массовая популяризация бренда путем создания общественного мнения о нем</p>
+							</div>
+							<div class="point-wrapper">
+								<p class="point"><span class="point-dots"></span>Работа с георесурсами: 2ГИС, Яндекс и Google картами </p>
+							</div>
+							<div class="point-wrapper">
+								<p class="point"><span class="point-dots"></span>Размещение рекомендательных комментариев</p>
+							</div>
+							<div class="point-wrapper">
+								<p class="point"><span class="point-dots"></span>Взаимодействие с ЦА (ветки дискуссий)</p>
+							</div>
+							<div class="point-wrapper">
+								<p class="point"><span class="point-dots"></span>Агитация посредством создания упоминаний о бренде</p>
+							</div>
+						</div>
+					</div>
+					<div class="package-block">
+						<input type="checkbox" class="checkSlideToggle">
+						<div class="package-wrapper">
+							<h3 class="package-title">Контент- маркетинг</h3>
+							<p class="package-dots-wrapper">
+								<span class="package-dots"></span>
+								<span class="package-dots"></span>
+								<span class="package-dots"></span>
+							</p>
+						</div>
+						<div class="package-body">
+							<div class="point-wrapper">
+								
+								<p class="point"><span class="point-dots"></span>Анализ и создание необходимых площадок</p>
+							</div>
+							<div class="point-wrapper">
+								<p class="point"><span class="point-dots"></span>Анализ и создание необходимых площадок</p>
+							</div>
+							<div class="point-wrapper">
+								<p class="point"><span class="point-dots"></span>Массовая популяризация бренда путем создания общественного мнения о нем</p>
+							</div>
+							<div class="point-wrapper">
+								<p class="point"><span class="point-dots"></span>Работа с георесурсами: 2ГИС, Яндекс и Google картами </p>
+							</div>
+							<div class="point-wrapper">
+								<p class="point"><span class="point-dots"></span>Размещение рекомендательных комментариев</p>
+							</div>
+							<div class="point-wrapper">
+								<p class="point"><span class="point-dots"></span>Взаимодействие с ЦА (ветки дискуссий)</p>
+							</div>
+							<div class="point-wrapper">
+								<p class="point"><span class="point-dots"></span>Агитация посредством создания упоминаний о бренде</p>
+							</div>
+						</div>
+					</div>
+					<div class="package-block">
+						<input type="checkbox" class="checkSlideToggle" >
+						<div class="package-wrapper">
+							<h3 class="package-title">Продвижение сторонних ресурсов</h3>
+							<p class="package-dots-wrapper">
+								<span class="package-dots"></span>
+								<span class="package-dots"></span>
+								<span class="package-dots"></span>
+							</p>
+						</div>
+						<div class="package-body">
+							<div class="point-wrapper">
+								<p class="point"><span class="point-dots"></span>Анализ и создание необходимых площадок</p>
+							</div>
+							<div class="point-wrapper">
+								<p class="point"><span class="point-dots"></span>Анализ и создание необходимых площадок</p>
+							</div>
+							<div class="point-wrapper">
+								<p class="point"><span class="point-dots"></span>Массовая популяризация бренда путем создания общественного мнения о нем</p>
+							</div>
+							<div class="point-wrapper">
+								<p class="point"><span class="point-dots"></span>Работа с георесурсами: 2ГИС, Яндекс и Google картами </p>
+							</div>
+							<div class="point-wrapper">
+								<p class="point"><span class="point-dots"></span>Размещение рекомендательных комментариев</p>
+							</div>
+							<div class="point-wrapper">
+								<p class="point"><span class="point-dots"></span>Взаимодействие с ЦА (ветки дискуссий)</p>
+							</div>
+							<div class="point-wrapper">
+								<p class="point"><span class="point-dots"></span>Агитация посредством создания упоминаний о бренде</p>
+							</div>
+						</div>
+					</div>
+				</section>
+					
+				<section class="sc-5">
+					<div class="info-wrapper"><h3 class="info"><span class="info-line"></span>СТОИМОСТЬ</h3></div>
+					<div class="discount-wrapper">
+						<div class="discount-block1 wow animate__animated  animate__fadeInLeft">
+							<div class="last-price">
+								<h3>Старая цена:</h3>
+								<p>100 000 рублей/мес.</p>
+							</div>
+							<div class="discount-price">
+								<h3>Цена со скидкой:</h3>
+								<p>79 000 рублей/мес.</p>
+								<span></span>
+								<span></span>
+							</div>
+							<div class="valid">
+								<h3>Акция действует до 1 мая 2019 года, условия акции распространяются только на новых клиентов компании с условием подписания договора от 6 месяцев и более.
+								.</h3>		
+							</div>
+						</div>
+						<div class="discount-block2  wow animate__animated animate__fadeInRight" >
+							<div class="form-block">
+								<h2 class="form-heading">ЗАКАЗАТЬ УСЛУГУ СО СКИДКОЙ</h2>
+								<form action="/action_page.php" id="order-form">
+									<input type="email"  id="email" placeholder="E-MAIL" name="email">
+									<input type="tel"  id="phone" placeholder="+ ( __ ) __ __ __" name="tel">
+									<div class="order-block">
+										<div class="order-wrap">
+											<button type="submit" class="order"><span class="animate-border"></span><span class="animate-border-layer"></span> Заказать со скидкой </button>
+										</div>
+										<div class="agree-wrap">
+											<input type="checkbox" name="remember"  id="agree-checkbox">
+											<label class="square-border" for="agree-checkbox" >
+												<span class="square"></span>
+											</label>
+											<label class="agree" for="agree-checkbox" >Даю согласие на обработку персональных данных. Пользовательское соглашение</label>
+										</div>
+									</div>
+								</form>							
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<section class="sc-6">
+					<div class="info-wrapper"><h3 class="info"><span class="info-line"></span>Узнайте больше про мультиканальное SEo от Дмитрия Сидорина</h3></div>
+					<div class="video-block">
+						<div class="video js-video" data-youtube="VqRHeucS5S0">
+							<button id="video__play" class="video__play" type="button"></button>
+						</div>
+					</div>
+				</section>
+
+				<section class="sc-7" >
+					<div class="info-wrapper"><h3 class="info"><span class="info-line"></span>Бренды, которые пользуются
+					продвижением от Reputation Lab
+					</h3></div>
+					
+					<div class="all-brands">					
+						<div class="brand-wrap">
+							<a href="javascript:void(0)" class="brand-link mercedes">
+								<img src="img/brand-Mercedes-active.png" alt="Mercedes">
+								<img src="img/brand-Mercedes.png" alt="Mercedes">
+							</a>
+						</div>
+						<div class="brand-wrap">
+							<a href="javascript:void(0)" class="brand-link  loreal">
+								<img src="img/brand-Loreal_Paris-active.png" alt="Loreal_Paris">
+								<img src="img/brand-Loreal_Paris.png" alt="Loreal_Paris">
+							</a>
+						</div>
+						<div class="brand-wrap">
+							<a href="javascript:void(0)" class="brand-link b24" >
+								<img src="img/brand-b24-active.png" alt="B24">
+								<img src="img/brand-b24.png" alt="B24">
+							</a>
+						</div>
+						
+						<div class="brand-wrap">
+							<a href="javascript:void(0)" class="brand-link alpha">
+								<img src="img/brand-alpha-active.png" alt="Alpha">
+								<img src="img/brand-alpha.png" alt="Alpha">
+							</a>
+						</div>
+						<div class="brand-wrap">
+							<a href="javascript:void(0)" class="brand-link mts">
+								<img src="img/brand-MTS-active.png" alt="MTS">
+								<img src="img/brand-MTS.png" alt="MTS">
+							</a>
+						</div>
+						<div class="brand-wrap">
+							<a href="javascript:void(0)" class="brand-link shell">
+								<img src="img/brand-Shell-active.png" alt="Shell">
+								<img src="img/brand-Shell.png" alt="Shell">
+							</a>
+						</div>
+						<div class="brand-wrap">
+							<a href="javascript:void(0)" class="brand-link bmw">
+								<img src="img/brand-BMW_Group-active.png" alt="BMW">
+								<img src="img/brand-BMW_Group.png" alt="BMW">
+							</a>
+						</div>
+						<div class="brand-wrap">
+							<a href="javascript:void(0)" class="brand-link gazpromneft">
+								<img src="img/brand-Gazpromneft-active.png" alt="Gazpromneft">
+								<img src="img/brand-Gazpromneft.png" alt="Gazpromneft">
+							</a>
+						</div>
+					</div>
+				</section>
+
+				<section class="sc-8">
+					<div class="contacts-container">
+						<div class="contacts">
+							<div class="info-wrapper"><h3 class="info"><span class="info-line"></span>КОНТАКТЫ
+							</h3></div>
+
+							<div class="address-block">
+								<h4 class='address-header'>АДРЕС</h4>
+								<p class='address'>105064, г. Москва, Сусальный Нижний пер-к, дом 5, стр.17, эт.4, пом.I, комн.6</p>
+							</div>
+							<div class="tel-block">
+								<h4 class="tel-header">ТЕЛЕФОН</h4>
+								<a class="tel"  href="tel: 8 (495) 665 07 76">8 (495) 665 07 76</a>
+							</div>
+							<div class="social-block">
+								<h4 class="social-header">МЫ В СОЦ СЕТЯХ</h4>
+								<div class="social-icons">
+									<div class="social-icon-wrap"><a class="social-icon" href="javascript:void(0)"><img src="img/vk.svg" alt="VK"></a></div>
+									<div class="social-icon-wrap"><a class="social-icon" href="javascript:void(0)"><img src="img/twitter.svg" alt="Twitter"></a></div>
+									<div class="social-icon-wrap"><a class="social-icon" href="javascript:void(0)"><img src="img/fb.svg" alt="Facebook"></a></div>
+									<div class="social-icon-wrap"><a class="social-icon" href="javascript:void(0)"><img src="img/instagram.svg" alt="Instagram"></a></div>
+								</div>
+								
+							</div>
+						</div>
+
+						<div class="map-wrapper">
+							<div id="map" class="map"></div>
+						</div>
+							
+					</div>		
+				</section>
+		
+				<footer>	
+					<div class="footer-content">
+						<div class="footer-info1">
+							<a href="javascript:void(0)">О КОМПАНИИ</a>
+							<a href="javascript:void(0)">УСЛУГИ</a>
+							<a href="javascript:void(0)">СТАТЬИ</a>
+							<a href="javascript:void(0)">КОНТАКТЫ</a>
+						</div>
+						<div class="footer-info2">
+							<p>&#169 REPUTATION LAB. ALL RIGHTS RESERVED</p>
+						</div>
+					</div>
+				</footer>
+
+
+				<!-- Modal CallBack -->
+				<div id="id01" class="modal">
+				  <div class="modal-content">
+				    <div class="container">
+				      <div class="callBack-block">
+					      	<div class="callBackForm-heading-block">
+				      			<h2 class="callBackForm-heading">Обратный звонок</h2> 
+								 <span onclick="document.getElementById('id01').style.display='none'" class="close-id01"  title="Close Modal">
+								 ×
+								</span>
+					      	</div>				
+
+							<form action="/" id="callBack-form">
+								<input type="email" id="callBack-email" placeholder="E-MAIL" name="email">
+								<input type="tel" id="callBack-phone" placeholder="+ ( __ ) __ __ __" name="tel" maxlength="19">
+								<div class="callBack-agree-block">
+
+									<label for="callBack-agree-checkbox"  class="callBack-agree-checkbox">
+										<span></span>
+										<input type="checkbox"  id="callBack-agree-checkbox" name="callBack-agree-checkbox" > 
+									</label>
+
+									<span  class="callBack-agree">Даю согласие на обработку персональных данных. <a href="javascript:void(0)">Пользовательское соглашение</a></span>
+								</div>
+								<button class="send-callBack" onclick="document.getElementById('id01').style.display='none'">
+									Отправить
+								</button>
+							</form>
+						</div>
+
+				    </div>
+				  </div>
+				</div>
+
+				<!-- End Popup CallBack -->
+
+			<script>
+					function initMap(){
+						var pos = {lat:55.760733, lng: 37.661108};
+						var opt = {
+							center: pos,
+							zoom: 17,
+							styles:  [
+				      {elementType: 'geometry', stylers: [{color: '#24222f'}]},
+				      {elementType: 'labels.text.stroke', stylers: [{color: '#625c77'}]},
+				      {elementType: 'labels.text.fill', stylers: [{color: '#7a7395'}]},
+				      {
+				        featureType: 'administrative.locality',
+				        elementType: 'labels.text.fill',
+				        stylers: [{color: '#7a7395'}]
+				      },
+				      {
+				        featureType: 'poi',
+				        elementType: 'labels.text.fill',
+				        stylers: [{color: '#7a7395'}]
+				      },
+				      {
+				        featureType: 'poi.park',
+				        elementType: 'geometry',
+				        stylers: [{color: '#7a7395'}]
+				      },
+				      {
+				        featureType: 'poi.park',
+				        elementType: 'labels.text.fill',
+				        stylers: [{color: '#000'}]
+				      },
+				      {
+				        featureType: 'road',
+				        elementType: 'geometry',
+				        stylers: [{color: '#1d1b26'}]
+				      },
+				      {
+				        featureType: 'road',
+				        elementType: 'geometry.stroke',
+				        stylers: [{color: '#363344'}]
+				      },
+				      {
+				        featureType: 'road',
+				        elementType: 'labels.text.fill',
+				        stylers: [{color: '#363344'}]
+				      },
+				      {
+				        featureType: 'road.highway',
+				        elementType: 'geometry',
+				        stylers: [{color: '#1d1b26'}]
+				      },
+				      {
+				        featureType: 'road.highway',
+				        elementType: 'geometry.stroke',
+				        stylers: [{color: '#1d1b26'}]
+				      },
+				      {
+				        featureType: 'road.highway',
+				        elementType: 'labels.text.fill',
+				        stylers: [{color: '#1d1b26'}]
+				      },
+				      {
+				        featureType: 'transit',
+				        elementType: 'geometry',
+				        stylers: [{color: '#000'}]
+				      },
+				      {
+				        featureType: 'transit.station',
+				        elementType: 'labels.text.fill',
+				        stylers: [{color: '#625c77'}]
+				      },
+				      {
+				        featureType: 'water',
+				        elementType: 'geometry',
+				        stylers: [{color: '#625c77'}]
+				      },
+				      {
+				        featureType: 'water',
+				        elementType: 'labels.text.fill',
+				        stylers: [{color: '#000'}]
+				      },
+				      {
+				        featureType: 'water',
+				        elementType: 'labels.text.stroke',
+				        stylers: [{color: '#000'}]
+				      }
+				    ]
+						}
+						var myMap = new google.maps.Map(document.getElementById('map'), opt);
+
+						var marker = new google.maps.Marker({
+						    position: pos,
+						    map: myMap,
+						    title: '105064, г. Москва, Сусальный Нижний пер-к, дом 5, стр. 17, эт.4, пом.1, комн. 6',
+						    icon: 'img/map-marker.png'
+						  });
+
+
+						var info = new google.maps.InfoWindow({
+							content: '105064, г. Москва, Сусальный Нижний пер-к, дом 5, стр. 17, эт.4, пом.1, комн. 6'
+				 			});
+
+				  
+						  marker.addListener('click', function() {
+						    info.open(myMap, marker);
+						  });
+					}
+			</script>
+
+			 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDX9Fmlbmmhr2ImXUriZW-KM0n_JEr1qXk&callback=initMap"
+		    async defer></script>
+				
+		</div>
+	</body>
+</html>
